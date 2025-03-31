@@ -1,4 +1,4 @@
-import { FiberClient } from '../core/Client';
+import { FiberClient } from '../core/client';
 import { Hash256, PaymentSessionStatus, Pubkey } from '../types';
 export declare class PaymentModule {
     private client;

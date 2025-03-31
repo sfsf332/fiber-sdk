@@ -1,4 +1,4 @@
-import { FiberClient } from '../core/Client';
+import { FiberClient } from '../core/client';
 import { Hash256, Channel } from '../types';
 export declare class ChannelModule {
     private client;
