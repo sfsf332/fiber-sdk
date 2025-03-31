@@ -1,4 +1,4 @@
-import { FiberClient } from '../core/Client';
+import { FiberClient } from '../core/client';
 import { NodeInfo } from '../types';
 
 export interface NodeStatus {

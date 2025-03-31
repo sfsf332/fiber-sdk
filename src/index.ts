@@ -1,9 +1,9 @@
-import { FiberClient } from './core/Client';
-import { ChannelModule } from './modules/Channel';
-import { PaymentModule } from './modules/Payment';
-import { InvoiceModule } from './modules/Invoice';
-import { PeerModule } from './modules/Peer';
-import { InfoModule } from './modules/Info';
+import { FiberClient } from './core/client';
+import { ChannelModule } from './modules/channel';
+import { PaymentModule } from './modules/payment';
+import { InvoiceModule } from './modules/invoice';
+import { PeerModule } from './modules/peer';
+import { InfoModule } from './modules/info';
 
 export interface FiberSDKConfig {
   endpoint: string;

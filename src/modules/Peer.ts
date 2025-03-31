@@ -1,4 +1,4 @@
-import { FiberClient } from '../core/Client';
+import { FiberClient } from '../core/client';
 
 export class PeerModule {
   constructor(private client: FiberClient) {}
